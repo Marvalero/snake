@@ -7,6 +7,9 @@ public class PlayerControls : MonoBehaviour
     public Rigidbody2D rb;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
+    public Sprite VulvaOne;
+    public Sprite VulvaTwo;
+
     private bool onGround;
 
     // Start is called before the first frame update
@@ -14,7 +17,9 @@ public class PlayerControls : MonoBehaviour
     {
        rb = GetComponent<Rigidbody2D>();
        Debug.Log("Hello world!");
-        
+       if (DataController.GetVulvaType() == 2) {
+         this.gameObject.GetComponent<SpriteRenderer>().sprite = VulvaTwo;
+       }
     }
 
     // Update is called once per frame

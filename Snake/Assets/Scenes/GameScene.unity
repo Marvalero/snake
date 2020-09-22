@@ -620,6 +620,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  VulvaOne: {fileID: 21300000, guid: 1cbd3056684be737692879e5a84ef2e4, type: 3}
+  VulvaTwo: {fileID: 21300000, guid: a0fa7e3251d740bffb689655848f7c0a, type: 3}
 --- !u!1 &1430955429
 GameObject:
   m_ObjectHideFlags: 0
